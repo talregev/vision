@@ -61,7 +61,8 @@ requirements = [
     "typing_extensions",
     "numpy",
     "requests",
-    pytorch_dep,
+    "timm",
+    pytorch_dep,    
 ]
 
 # Excluding 8.3.* because of https://github.com/pytorch/vision/issues/4934
